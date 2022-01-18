@@ -1,0 +1,70 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content ="width=device-width, intitial-scale=1">
+    
+    <title>Headings!</title>
+    </head>
+    <body>
+            <header>
+                <h1>This is the Title of My Article</h1>
+            </header>
+        
+            <!--This is the navigation of my site-->
+        <nav>
+            <p>HOME | NEWS | ABOUT | CONTACT</p>
+        </nav>
+
+        <article>
+            <header>
+                <h2>Heading in HTML</h2>
+            </header>
+            <section>
+                <header><h3>Heading 1(h1)</h3></header>
+                <P>blah blah</P>
+            </section>
+            <section>
+            <header><h3>Heading 2(h2)</h3></header>
+            <P> 8 &gt; 9 <sup>2</sup>
+            <br />
+            b <sup>3</sup> &lt; 30 
+            </P>
+            </section>
+            <section>
+                <header><h3>Testing a Button</h3></header>
+                <button type="button" onclick="alert('You clicked the button')">
+                    Click Me!
+                </button>
+            </section>
+            <section>
+                <header><h3>Current Date and Time</h3></header>
+                <script>
+                    //create a variable
+                    CurrentDt = new Date();
+
+                    //variable to hold the string representation of the current date.
+                    localTime = CurrentDt.toString();                
+                    uniTime = CurrentDt.toGMTString();
+
+                    //display or write the time on the page
+                    document.write("<p><strong>Local time:</strong> " + localTime + "</p>");
+                    document.write("<p><strong>Univensal time:</strong> " + uniTime + "</p>");
+
+                    hours = CurrentDt.getHours(); //get the hours from the current time
+                    minutes = CurrentDt.getMinutes(); //get the minutes from the current time
+                    seconds = CurrentDt.getSeconds(); //get the seconds from the current time
+                    millisceonds = CurrentDt.getMilliseconds();
+                    dayNum = CurrentDt.getDay();
+                    document.write("<p><strong>" + dayNum + " " + hours + ":" + minutes + ":" + seconds + ":" + millisceonds + "</strong></p>");
+                    </script>
+
+            </section>
+
+
+        </article>
+        <hr />
+        <footer>Copyright &copy; David Slade 2021</footer>
+
+        </html>
