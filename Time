@@ -9,6 +9,7 @@
     </head>
     <body>
 <header><h3>Current Date and Time</h3></header>
+<section>
                 <script>
                     //create a variable
                     CurrentDt = new Date();
@@ -27,6 +28,9 @@
                     millisceonds = CurrentDt.getMilliseconds();
                     dayNum = CurrentDt.getDay();
                     document.write("<p><strong>" + dayNum + " " + hours + ":" + minutes + ":" + seconds + ":" + millisceonds + "</strong></p>");
+                    <p><a href="https://dmslade.github.io/Hello-GitHub/"> Main Page</a></p>
+
                     </script>
-            <p><a href="https://dmslade.github.io/Hello-GitHub/"> Main Page</a></p>
             </section>
+</body>
+</html>
