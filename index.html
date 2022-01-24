@@ -16,7 +16,36 @@
           document.write(document.lastModified);
           //Stop hiding script here -->
         </script>
-      </p>
+      </p>            <section>
+                <header><h3>Testing a Button</h3></header>
+                <button type="button" onclick="alert('You clicked the button')">
+                    Click Me!
+                </button>
+            </section>
+            <section>
+                <header><h3>Current Date and Time</h3></header>
+                <script>
+                    //create a variable
+                    CurrentDt = new Date();
+
+                    //variable to hold the string representation of the current date.
+                    localTime = CurrentDt.toString();                
+                    uniTime = CurrentDt.toGMTString();
+
+                    //display or write the time on the page
+                    document.write("<p><strong>Local time:</strong> " + localTime + "</p>");
+                    document.write("<p><strong>Univensal time:</strong> " + uniTime + "</p>");
+
+                    hours = CurrentDt.getHours(); //get the hours from the current time
+                    minutes = CurrentDt.getMinutes(); //get the minutes from the current time
+                    seconds = CurrentDt.getSeconds(); //get the seconds from the current time
+                    millisceonds = CurrentDt.getMilliseconds();
+                    dayNum = CurrentDt.getDay();
+                    document.write("<p><strong>" + dayNum + " " + hours + ":" + minutes + ":" + seconds + ":" + millisceonds + "</strong></p>");
+                    </script>
+
+            </section>
+
         
     </body>
     </html>
