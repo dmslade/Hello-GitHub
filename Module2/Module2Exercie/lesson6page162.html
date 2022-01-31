@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="myStyles.css">
-    
-    <title>PLaying with CSS Columns</title>
-  </head>  
-  <body>
-    <header><h1>Playing with CSS Columns</h1></header>
-    <p>Go back to the <a href="index.html">Home page</a></p>
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Breaking News!</title>
+  <style>
+    article {
+      column-count: 3;
+      column-gap: 21px;
+    }
+
+    h1 {
+      text-align: center;
+      column-span: all;
+    }
+
+    p {
+      margin-top: 0px;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      column-span: all;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Breaking News!</h1>
+  </header>
+  <p>Breaking news, also known as a special repoort or news bulletin, is a current issue that broadcasters feel warrants
+    the interruption of scheduled programming and/or current news in order to report its details. Its use is also
+    assigned to the most significant story of the moment or a story that is being covered live. It could be a story that
+    is simply of wide interest to viewers and has little impact otherwise. Many times, breaking news is used after the
+    news network has already reported on this story. When a sotry has not been reported on previously, the graphic and
+    phrase "Just In" is sometimes used instead. </p>
+  <p>In early coverage of a breaking story, details are commonly sketchy, usually due to the limited information availabe at the time. For example, during the Sago Mine disaster, intitial reports were that all twelve miners were found alive, but news organizations later found only one actually survived.</p>
+   <p>Another criticism has been the diluting of the importance of breaking news by the need of 24-hour news channels to fill time, applying the title to soft news stories of questionable importance and urgency, for example car chases. Others question whether the use of the term is excessive, citing occasions when the term is used even though scheduled programming is not interrupted.
+   </p> 
+   <footer>
+        <p>Go back to the <a href="index.html">Home page</a></p>
+   </footer>
+
+</body>
+
 </html>
