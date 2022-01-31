@@ -1,4 +1,48 @@
 /*Your style will go here*/
 body{
     background-color: darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-size: medium;
+    color:black;
+}
+
+h1{
+    color: darkred;
+    font-weight: bolder;
+}
+.leftAlign{
+    text-align: left;
+}
+h2{
+    color: coral;
+    background-color:navy;
+}
+
+.boldword{
+font-weight: 600;
+}
+
+/* THe following style are for file "listing6-2"*/
+.rightAlign{
+ text-align: right;
+ background-color: brown;   
+}
+.centerAlign{
+    text-align: center;
+}
+#tblHeader{
+    background-color: darkgrey;
+    text-transform:uppercase;
+    font-weight: bolder;
+    color: crimson;
+    font-size: 29pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.preBackColor{
+    background-color:red;
+    width: 50%;
+    float: right;
 }
