@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="myStyles.css">
-    
-    <title>Playing with Tables</title>
-  </head>  
-  <body>
-    <header><h1>Playing with Tables</h1></header>
-    <p>Go back to the <a href="index.html">Home page</a></p>
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Playing with Tables</title>
+  <style>
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Baseball Standing</h1>
+    <table>
+      <tr>
+        <th style="width: 200px;">Team</th>
+        <th style="width: 25px;">W</th>
+        <th style="width: 25px;">L</th>
+        <th style="width: 25px;">GB</th>
+      </tr>
+      <tr>
+        <td>San Francisco Giants</td>
+        <td>62</td>
+        <td>38</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>Los Angeles Dodgers</td>
+        <td>54</td>
+        <td>46</td>
+        <td>8.0</td>
+      </tr>
+      <tr>
+        <td>Colorado Rockies</td>
+        <td>54</td>
+        <td>46</td>
+        <td>8.0</td>
+      </tr>
+      <tr>
+        <td>Arizona Diamondbacks</td>
+        <td>43</td>
+        <td>58</td>
+        <td>19.5</td>
+      </tr>
+      <tr>
+        <td>San Diego Paders</td>
+        <td>39</td>
+        <td>62</td>
+        <td>23.5</td>
+      </tr>
+    </table>
+  </header>
+  <p>Go back to the <a href="index.html">Home page</a></p>
+</body>
+
 </html>
