@@ -1,0 +1,57 @@
+body{
+  background-color:aliceblue;
+}
+
+.sitetitle{
+  font-size: 40px;
+  background-color: #dc143c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.navbar {
+    overflow: hidden;    
+    
+    top: 80px;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #dc143c;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .navbar a:hover {
+    color: #ffffff;
+    background-color: #666666;
+  }
+  .boldword{
+    font-weight: 600;
+    }
+
+    .columns3 {
+      column-count: 3;
+      column-gap: 21px;
+}
+
+.colmuns3 h1 {
+      text-align: center;
+      column-span: all;
+}
+
+.columns3 p {
+      margin-top: 0px;
+      margin-bottom: 12px;
+}
+
+.columns3 footer {
+      column-span: all;
+}
+.p{
+  color: orange;
+}
