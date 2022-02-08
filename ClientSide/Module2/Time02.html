@@ -1,0 +1,45 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intitial-scale=1">
+
+    <title>Time</title>
+</head>
+
+<body>
+    <header>
+        <h3>Current Date and Time</h3>
+    </header>
+
+    <script>
+        //create a variable
+        CurrentDt = new Date();
+        
+
+        //variable to hold the string representation of the current date.
+        localTime = CurrentDt.toString();
+        uniTime = CurrentDt.toGMTString();
+
+        //display or write the time on the page
+        document.write("<p><strong>Local time:</strong> " + localTime + "</p>");
+        document.write("<p><strong>Univensal time:</strong> " + uniTime + "</p>");
+
+        yearValue = CurrentDt.getFullYear();
+        hours = CurrentDt.getHours(); //get the hours from the current time
+        minutes = CurrentDt.getMinutes(); //get the minutes from the current time
+        seconds = CurrentDt.getSeconds(); //get the seconds from the current time
+        millisceonds = CurrentDt.getMilliseconds();
+        
+        
+        document.write("<p><strong>" + hours + ":" + minutes + ":" + seconds + ":" + millisceonds + ":" + yearValue + "</strong></p>");
+
+    </script>
+    <p><a href="https://dmslade.github.io/Hello-GitHub/"> Main Page</a></p>
+
+
+</body>
+
+</html>
