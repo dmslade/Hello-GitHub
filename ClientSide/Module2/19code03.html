@@ -1,1 +1,42 @@
-d
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intitial-scale=1">
+    <script src='Swapping.js'></script>
+
+    <tilte>Random Images</tilte>
+
+</head>
+
+<body>
+    <h1>David Slade</h1>
+    <h2>Swapping Images</h2>
+    <p>This page shows how to swap images using JavaScript</p>
+    <img id='large_img' src="images/Brownie.jpg" alt="Image of browines"
+        style="border: 1px solid black; margin-right: 13px; width: 400px; height: 300px;">
+
+
+    <aside>
+        <p id="imgDescr">Brownie made with chocolate and egg </p>
+    </aside>
+    
+    <div>
+        <p>Click on one of the images below to see it above.</p>
+        <img src="images/house.jpg" alt="Image of browines" onclick="showImage('images/house.jpg')"
+            style="border: 1px solid black; margin-right: 13px; width: 50px; height: 50px;" alt="house photo" />
+
+        <img src="images/Car.jpg" alt="Image of Car" onclick="showImage('images/Car.jpg')"
+            style="border: 1px solid black; margin-right: 13px; width: 50px; height: 50px;" alt="Car photo" />
+
+        <img src="images/Brownie.jpg" alt="Image of browines" onclick="showImage('images/Brownie.jpg')"
+            style="border: 1px solid black; margin-right: 13px; width: 50px; height: 50px;" alt="brownie photo" />
+
+    </div>
+
+
+</body>
+
+</html>
