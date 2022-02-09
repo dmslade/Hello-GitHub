@@ -15,31 +15,31 @@
     </header>
 
     <script>
-        //create a variable
+        var date1, date2;
+        var month1, month2;
+        //define two date object variables with dates inside it  
+        date1 = new Date("09/17/2000");
+        date2 = new Date("2/8/2022");
 
+        //calculate time difference  
+        var time_difference = date2.getTime() - date1.getTime();
 
-        let Birthday = new Date('September  8, 2000 16:40:01');
-        let days = Birthday.getDay();
+        //calculate days difference by dividing total milliseconds in a day  
+        var days_difference = time_difference / (1000 * 60 * 60 * 24);
 
-        var hours = new Date('September  8, 2000 16:40:01');
-        var hours = Birthday.getHours();
+        document.write("Number of days between dates <br>" +
+            date1 + " and <br>" + date2 + " are: <br>"
+            + days_difference + " days");
+        month1 = new Date("09/17/2000");
+        month2 = new Date("2/8/2022")
 
+       
+        var time_difference = month2.getTime() - month1.getTime();
+        var months_difference = time_difference / (1000 * 60 * 60 * 24 * 30 );
+        document.write("Number of Months between dates <br>" +
+            month1 + " and <br>" + month2 + " are: <br>"
+            + months_difference + " months");
 
-
-        var minutes = new Date('September  8, 2000 16:40:01');
-        var minutes = Birthday.getMinutes();
-
-
-        var seconds = new Date('September  8, 2000 16:40:01');
-        var seconds = Birthday.getSeconds();
-
-
-
-
-
-
-
-        document.write("<p><strong>" + days + ":" + hours + ":" + minutes + ":" + seconds + "</strong></p>");
 
     </script>
 
