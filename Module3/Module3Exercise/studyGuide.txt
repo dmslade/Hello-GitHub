@@ -1,0 +1,35 @@
+Chapter 7 Study Guide
+
+1. To add links to other sites on your page, you do something like 
+the following:
+
+<a href="http//www.supercheapsuits.com/~-billybob/">Billy Bob's site</a>
+
+The link to the website is between the " and ". The text you want
+display on your site is Billy Bob's site. This text can be anything you want.
+
+2. To create links on the same page, you can anchor links. For exmaple 
+you can do the following:
+Type this at the top of the page:
+<a href="#credits">About the Author</a>
+
+Type this at the beginning of the credits section:
+<anytag id="credits">Credits...</anytag>
+
+3. To create text, you do the following: 
+Type the following on web page:
+Send me a <a href="mailto:bon@soir.com">goodnight greeting</a>
+
+4. The id attribute can be used on any HTML element as an achor.
+
+5. You use the pound sign (#) to link to a named anchor point on the page.
+
+6. You can use the attribute downloaded to tell the browser the link target should be downloaded.
+
+7. You should include the http:// and the rest of FQDN when you are linking to page outside the current site.
+
+8. You must point the email addres the message is to. Optional values are subject, body, cc, and bcc.
+
+9. You should avoid forcing links to open in a new window at all costs.
+
+10. You can use the a:visited pseudo-class to style visited links.

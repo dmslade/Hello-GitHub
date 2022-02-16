@@ -1,0 +1,50 @@
+body {
+    
+    background: url("HO.jpg") ;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+li{
+    margin: 10px;
+}
+
+ol{
+    border: 5px solid black;
+    padding: 30px;
+    margin: 0px 25px 0px 26px; /*TOP RIGHT BOTTOM LEFT*/
+}
+
+/*pseudo-class for the <a> tag*/
+a:link{
+    color: darkgreen;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    color: #0fc00f;
+}
+
+a:focus{
+    color:chocolate;
+}
+
+a:active{
+    color: goldenrod;
+}
+
+.boxColor{
+    background-color: brown;
+    border: 2px bisque;
+}
+
+.rightImg{
+    float: right;
+    padding: 10px;
+    vertical-align:baseline
+    }
