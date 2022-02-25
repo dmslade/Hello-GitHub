@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Exercises Home</title>
+  </head>  
+  <body>
+    <header>
+        <h1>Module 3 Exercises Links</h1>
+        </header>        
+        <section>
+          <header><h2>Links to the exercises to submit</h2></header>
+          <ul>
+              <li><a href="ToDoList.html">To Do List</a></li>
+              <li><a href="countdown.html">countdown</a></li>
+            
+            
+          </ul>
+          <p><a href="https://dmslade.github.io/Hello-GitHub/"> Main Page</a></p>
+          </section>
+    </body>
+</html>
