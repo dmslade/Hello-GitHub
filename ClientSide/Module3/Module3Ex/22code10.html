@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Math Example</title>
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Math Example</h1>
+    <p>How random are JavaScript's random numbers?<br>
+    Let's generate 15000 of them and find out.</p>
+      <p id="total"></p>
+    <script>
+       for(j =1; j <=3; j++)
+      {
+      var total = 0;
+      //looping from 1 to 5000 and generating a random number
+      //adding that number to a total
+      //checking if the number is divisible by 1000,if so,
+      //print that number
+      for (i=1; i<=5000; i++) {
+        var num = Math.random();
+        total += num;
+        if (i % 1000 == 0) {
+           document.write("Generated " + i + " numbers...<br>") ;  continue;
+           document.getElementById("total");
+         }
+      } 
+        document.getElementById("total").innerText=total
+    } 
+      var average = total / 5000;
+      average = Math.round(average * 15000) / 5000;
+      document.write("<h2>Average of 15000 numbers is: " + 
+                     average + "</h2>");
+        
+     
+      
+    </script>
+
+  </body>
+</html>
