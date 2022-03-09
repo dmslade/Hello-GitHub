@@ -1,0 +1,42 @@
+#theImg {
+    width: 1059px;
+    height: 1600px;
+    background: url(lava_lamp.jpg) no-repeat;
+    position: relative;
+    border: 1px solid #000000;
+ }
+ #theImg ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ }
+ #theImg a {
+    position: absolute;
+    text-indent: -1000em; 
+
+
+     
+ }
+ #theImg a:hover {
+    border: 4px solid #ffffff;
+ }
+ #bm a {
+   top: 1054px;
+   left: 495px;
+   width: 554px;
+   height: 1196px;
+    
+ }
+ #gn a {
+    top: 307px ;
+    left: 341px ;
+    width: 557px ;
+    height: 612px;
+ }
+ #ib a {
+    top: 125px;
+    left: 530px;
+    width: 60px;
+    height: 90px;
+ }
+ 
