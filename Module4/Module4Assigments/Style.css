@@ -127,10 +127,7 @@ a:active{
 }
 #theImg a {
   position: absolute;
-
-
-
-   
+  text-indent: -1000em;    
 }
 #theImg a:hover {
   border: 4px solid #c70606;
