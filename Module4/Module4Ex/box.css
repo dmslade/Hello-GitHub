@@ -1,0 +1,84 @@
+div {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  div#d1 {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    border: 5px solid #000;
+  }
+  div#d2 {
+    background-color: green;
+    left: 245px;
+    top: 0px;
+    z-index: 2;
+    border:9px solid #000;
+  }
+  div#d3 {
+    background-color: blue;
+    left: 499px;
+    top: 0px;
+    z-index: 3;
+    border: 10px solid #000;
+  }
+  div#d4 {
+    background-color: yellow;
+    left: 755px;
+    top: 0px;
+    z-index: 4;
+    border: 20px solid #000;
+  }
+  div#d5 {
+    background-color: pink;
+    top: 110px;
+    left: 0px;
+    z-index: 4;
+    border: 8px solid #000;
+    overflow: scroll;
+  }
+  div#d6 {
+    background-color: gray;
+    left: 255px;
+    top: 108px;
+    z-index: 10;
+    border: 3px solid #000;
+    overflow: scroll;
+  }
+  div#d7 {
+    background-color: orange;
+    left: 505px;
+    top: 108px;
+    z-index: 8;
+    border: 6px solid #000;
+    overflow: scroll;
+  }
+  div#d8 {
+    background-color: gold;
+    left: 755px;
+    top: 108px;
+    z-index: 20;
+    border: 9px solid #000;
+    overflow: scroll;
+
+  }
+ .watermark{
+color:yellow;
+background-color:rgba(255, 0, 0, 0.5);
+height:30px;
+width:100px;
+display:flex;
+align-items:center;
+justify-content:center;
+position:fixed;
+bottom:510px;
+right:0px;
+z-index:99;
+border: 8px solid #000;
+
+}
