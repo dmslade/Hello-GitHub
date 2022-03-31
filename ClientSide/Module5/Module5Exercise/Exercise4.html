@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Alerts, Confirmations, and Prompts</title>
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Alerts, Confirmations, and Prompts</h1>
+    <p>
+      Use the buttons below to test dialogs in JavaScript.
+    </p>
+    <button type="button" id="alert">
+      Display an Alert
+    </button>
+    
+    <button type="button" id="confirm">
+      Display a Confirmation 
+    </button>
+    
+    <button type="button" id="prompt">
+      Display a Prompt
+    </button>
+    
+    <p>After Alert:<spam id="al"></spam></p>
+    <p>After Confirmation:<spam id="cn"></spam></p>
+    <p>After Prompt:<spam id="pr"></spam></p>
+
+    <script>
+      document.getElementById("alert").addEventListener("click", 
+                                       function() {
+        alertVal = window.alert("This is a test alert."); 
+        document.getElementById("al").innerHTML = "It is alert"
+      });
+      document.getElementById("confirm").addEventListener("click", 
+                                       function() {
+        confirmVal = window.confirm("Would you like to confirm?");
+        document.getElementById("cn").innerHTML = confirmVal 
+      });
+      document.getElementById("prompt").addEventListener("click", 
+                                       function() {
+        promptVal = window.prompt("Enter Text:","This is the default.");
+        document.getElementById("pr").innerHTML = promptVal 
+      });
+    </script>
+  </body>
+</html>
