@@ -1,0 +1,34 @@
+.gridcontainer{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: 12% auto 12%;
+    grid-template-areas: 
+    'header header header'
+    'menu   main   right'
+    'footer footer footer'
+}
+.gridcontainer>.item
+{
+    border: black dotted 2px;
+    padding: 5px;
+}
+#header {
+    grid-area: header;
+}
+
+#menu{
+    grid-area: menu;
+}
+
+#main{
+    grid-area: main;
+}
+
+#right{
+    grid-area: right;
+}
+#footer{
+    grid-area: footer;
+}
