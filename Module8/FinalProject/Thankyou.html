@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Home</title>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>About Parrots</h1>
+  </div>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html" title="Random Image">Home</a></li>
+      <li><a href="page2.html" title="Party Gallery"> Party Gallery</a></li>
+      <li><a href="page3.html" title="About Us">About Us </a></li>
+      <li><a href="page4.html" title="Fact">Fact</a></li>
+      <li><a href="page5.html" title="Home">Contant Us</a></li>
+    </ul>
+  </div>
+
+  <!-- The flexible grid (content) -->
+  <div class="row">
+    
+    <div class="side">
+
+    </div>
+    <div class="main">
+      <h1>Thank you for submitting your information!</h1>
+      <p>The information you entered is below</p>
+      <p id="info"></p>
+      <p id="test"></p>
+
+      <script>
+        document.getElementById("info").innerHTML = localStorage.getItem("dataValues");
+      </script>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <h2>David Slade &copy; 2022</h2>
+  </div>
+</body>
+
+</html>
